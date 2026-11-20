@@ -15,3 +15,32 @@ h1 {
   margin: 0;
   padding: 20px 0;
 }
+
+a:link {
+  color: #76ABAE;
+}
+
+a:visited {
+  color: #59797B;
+}
+
+ul.bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+ul li.bar {
+  float: right;
+}
+
+ul li a.bar {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
